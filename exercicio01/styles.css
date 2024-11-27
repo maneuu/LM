@@ -53,7 +53,7 @@ a:hover {
 }
 
 .link-transparent {
-  display: none;
+  color: transparent;
 }
 
 b a {
