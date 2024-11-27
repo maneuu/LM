@@ -1,8 +1,9 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: arial, sans-serif;
   padding: 30px;
   background-color: #f8f9fa;
   color: darkslategrey;
+  font-size: 17px;
 }
 
 .text-center {
@@ -11,65 +12,45 @@ body {
 
 h1 {
   font-size: 30px;
-  margin-bottom: 20px;
-  color: black;
 }
-
 h2 {
   text-transform: uppercase;
-  margin-top: 30px;
-  color: white;
-  padding: 10px 20px;
-  background-color: #2e993f;
-  border-radius: 5px;
   font-size: 24px;
+  border-radius: 5px;
+  background-color: lightskyblue;
+  padding: 10px 20px;
+}
+#copyright {
+  font-weight: bold;
+  font-style: italic;
 }
 
-h3 a {
-  text-transform: uppercase;
-  padding: 10px 0 10px 0;
+h1,
+h2,
+a,
+a:visited {
+  color: darkblue;
 }
 
-p,
-dl dt {
-  font-size: 1rem;
-  margin: 10px 0;
-}
-
-p i:hover {
-  text-decoration: underline;
-  color: #2e993f;
-}
-
-a {
+a,
+a:visited {
   text-decoration: none;
-  display: inline-block;
-  color: #007bff;
 }
-
 a:hover {
   text-decoration: underline;
-  color: #0056b3;
 }
 
-.link-transparent {
-  color: transparent;
+h1 a,
+h1 a:visited {
+  color: white;
 }
-
-b a {
-  color: #2e993f;
-  padding-left: 10px;
-  border-left: 7px solid transparent;
-  margin: 10px 0;
+h2 a,
+h2 a:visited {
+  color: lightskyblue;
 }
-
-b a:hover {
-  text-decoration: underline;
-  border-left-color: #c92e32;
-}
-
-b a:visited {
-  color: red;
+h1:hover a,
+h2:hover a {
+  color: darkblue;
 }
 
 ul {
@@ -81,17 +62,10 @@ ul li {
   padding: 10px;
   font-size: 1.2rem;
   margin-bottom: 5px;
-  border-bottom: 6px solid rgb(220, 219, 219);
+  border-bottom: 6px solid #ccc;
 }
 
 .lista-links li:hover {
   border-color: #c92e32;
-  color: #2e993f;
-  font-weight: bold;
   cursor: pointer;
-}
-
-#copyright {
-  font-weight: bold;
-  font-style: italic;
 }
