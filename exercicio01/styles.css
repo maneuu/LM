@@ -1,19 +1,12 @@
 body {
-<<<<<<< HEAD
   font-family: Arial, sans-serif;
   padding: 30px;
   background-color: #f8f9fa;
   color: darkslategrey;
-=======
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 30px;
-  background-color: aliceblue;
->>>>>>> 5725bb173436a7edc4d497a728bae74b9ae84e6e
 }
 
 .text-center {
   text-align: center;
-<<<<<<< HEAD
 }
 
 h1 {
@@ -41,20 +34,10 @@ p,
 dl dt {
   font-size: 1rem;
   margin: 10px 0;
-=======
-  font-size: 2.5rem;
-}
-p {
-  font-size: 1.1rem;
->>>>>>> 5725bb173436a7edc4d497a728bae74b9ae84e6e
 }
 
 p i:hover {
   text-decoration: underline;
-<<<<<<< HEAD
-=======
-  font-weight: bold;
->>>>>>> 5725bb173436a7edc4d497a728bae74b9ae84e6e
   color: #2e993f;
 }
 
@@ -62,7 +45,6 @@ a {
   text-decoration: none;
   font-size: 1.3rem;
   display: inline-block;
-<<<<<<< HEAD
   color: #007bff;
 }
 
@@ -75,24 +57,17 @@ a:hover {
   display: none;
 }
 
-=======
-}
->>>>>>> 5725bb173436a7edc4d497a728bae74b9ae84e6e
 b a {
   color: #2e993f;
   padding-left: 10px;
   border-left: 7px solid transparent;
   margin: 10px 0;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 5725bb173436a7edc4d497a728bae74b9ae84e6e
 b a:hover {
   text-decoration: underline;
   border-left-color: #c92e32;
 }
-<<<<<<< HEAD
 
 b a:visited {
   color: red;
@@ -111,58 +86,13 @@ ul li {
 }
 
 .lista-links li:hover {
-=======
-b a:visited {
-  color: red;
-}
-ul {
-  list-style-type: square;
-}
-ul li {
-  padding: 10px;
-  border-bottom: 6px solid rgb(220, 219, 219);
-  font-size: 1.1rem;
-}
-ul li:hover {
->>>>>>> 5725bb173436a7edc4d497a728bae74b9ae84e6e
   border-color: #c92e32;
   color: #2e993f;
   font-weight: bold;
   cursor: pointer;
 }
-<<<<<<< HEAD
 
-=======
-h2 {
-  font-size: 1.6rem;
-  margin-top: 30px;
-  text-transform: uppercase;
-  background-color: #2e993f;
-  color: white;
-  padding: 10px 20px;
-}
-h2 a {
-  display: none;
-}
-h3 a {
-  text-transform: uppercase;
-  text-decoration: underline;
-  padding: 10px;
-  padding-left: 0;
-}
-h3 a:hover {
-  background-color: #2e993f;
-  color: black;
-}
->>>>>>> 5725bb173436a7edc4d497a728bae74b9ae84e6e
 #copyright {
   font-weight: bold;
   font-style: italic;
 }
-<<<<<<< HEAD
-=======
-a,
-a:visited {
-  text-decoration: none;
-}
->>>>>>> 5725bb173436a7edc4d497a728bae74b9ae84e6e
