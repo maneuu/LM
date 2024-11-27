@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 30px;
   margin-bottom: 20px;
   color: black;
 }
@@ -22,7 +22,7 @@ h2 {
   padding: 10px 20px;
   background-color: #2e993f;
   border-radius: 5px;
-  font-size: 1.8rem;
+  font-size: 24px;
 }
 
 h3 a {
@@ -43,7 +43,6 @@ p i:hover {
 
 a {
   text-decoration: none;
-  font-size: 1.3rem;
   display: inline-block;
   color: #007bff;
 }
