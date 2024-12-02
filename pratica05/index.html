@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clima e Ícones</title>
+    <!-- Linkando o CSS local do Weather Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.12/css/weather-icons.min.css"
+      integrity="sha512-r/Gan7PMSRovDus++vDS2Ayutc/cSdl268u047n4z+k7GYuR7Hiw71FsT3QQxdKJBVHYttOJ6IGLnlM9IoMToQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        width: 80%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .section {
+        margin-bottom: 50px;
+      }
+
+      h1 {
+        color: #333;
+      }
+
+      .weather-icon {
+        font-size: 100px;
+        color: #3498db;
+        margin-bottom: 20px;
+      }
+
+      .weather-text {
+        font-size: 24px;
+        line-height: 1.5;
+        color: #555;
+      }
+
+      .icon-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 30px;
+      }
+
+      .icon-item {
+        text-align: center;
+      }
+
+      .iconify-inline {
+        font-size: 60px;
+        color: #3498db;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Ícones do Clima</h1>
+
+      <!-- Seção de clima -->
+      <div class="section">
+        <div class="weather-icon wi wi-day-sunny"></div>
+        <p class="weather-text">
+          Céu Claro: O tempo está limpo, com poucas nuvens. Aproveite para sair
+          ao ar livre!
+        </p>
+      </div>
+
+      <!-- Seção de clima -->
+      <div class="section">
+        <div class="weather-icon wi wi-night-rain"></div>
+        <p class="weather-text">
+          Chuva à Noite: Prepare-se para a chuva. Lembre-se de levar um
+          guarda-chuva se sair!
+        </p>
+      </div>
+
+      <!-- Seção de clima -->
+      <div class="section">
+        <div class="weather-icon wi wi-cloudy"></div>
+        <p class="weather-text">
+          Nublado: O céu está coberto por nuvens, mas sem previsão de chuva.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
