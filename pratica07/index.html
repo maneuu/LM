@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        table {
+            border: 1px solid black;
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            border-radius: 3px;
+        }
+
+        th {
+            padding: 20px;
+            border: 3px solid black;
+            text-transform: uppercase;
+            color: white;
+            background-color: black;
+        }
+
+        td {
+            border: 3px solid black;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        thead tr {
+            background-color: #ccc;
+        }
+
+        tr {
+            background-color: #ebebeb;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Table</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Linguagem</th>
+                <th>Utilização</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Python</td>
+                <td>14.51%</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td rowspan="2">14.41%</td>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <!-- <td>14.41%</td> -->
+
+            </tr>
+            <tr>
+                <td>C++</td>
+                <td>12.96%</td>
+            </tr>
+            <tr>
+                <td>C#</td>
+                <td>8.21%</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Fonte: IFPB</td>
+
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
