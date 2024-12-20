@@ -16,9 +16,9 @@ Aqui estão os links para acessar os sites relacionados aos exercícios avaliati
 
 1. Introdução
 
-- curriculum - https://maneuu.github.io/LM/exercicios/01-curriculum/index.html
+   - curriculum - https://maneuu.github.io/LM/exercicios/01-curriculum/index.html
 
 2. Tabelas
 
-- Tabela climática - https://maneuu.github.io/LM/exercicios/02-tables/table_clima.html
-- Tabela nota - https://maneuu.github.io/LM/exercicios/02-tables/table_nota.html
+   - Tabela climática - https://maneuu.github.io/LM/exercicios/02-tables/table_clima.html
+   - Tabela nota - https://maneuu.github.io/LM/exercicios/02-tables/table_nota.html
