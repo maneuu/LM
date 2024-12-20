@@ -4,8 +4,21 @@ Bem-vindo(a) ao repositório dedicado aos códigos e exercícios práticos da di
 
 ## Estrutura do Repositório
 
-- **Pasta `praticas`:**
+- **Pasta `pratica`:**
   Contém os códigos e atividades realizados como parte das práticas em aula, ajudando a consolidar os conceitos aprendidos.
 
 - **Pasta `exercicios`:**
   Reúne os exercícios avaliativos, focados em aplicar os conhecimentos adquiridos em situações propostas pelo professor.
+
+## Links dos Exercícios
+
+Aqui estão os links para acessar os sites relacionados aos exercícios avaliativos realizados:
+
+1. Introdução
+
+- curriculum - https://maneuu.github.io/LM/exercicios/01-curriculum/index.html
+
+2. Tabelas
+
+- Tabela climática - https://maneuu.github.io/LM/exercicios/02-tables/table_clima.html
+- Tabela nota - https://maneuu.github.io/LM/exercicios/02-tables/table_nota.html
