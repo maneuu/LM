@@ -22,3 +22,9 @@ Aqui estão os links para acessar os sites relacionados aos exercícios avaliati
 
    - Tabela climática - https://maneuu.github.io/LM/exercicios/02-tables/table_clima.html
    - Tabela nota - https://maneuu.github.io/LM/exercicios/02-tables/table_nota.html
+
+3. Flex/Grid
+
+   - Portifólio com Layout - https://maneuu.github.io/LM/exercicios/03-flex_grid/index.html
+
+   - Alt - https://maneuu.github.io/LM/exercicios/03-alt/index.html
